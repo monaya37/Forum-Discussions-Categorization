@@ -94,7 +94,7 @@ We trained and evaluated the following models:
 
 ## Thank You
 
-We have put a lot of effort into this project, and this [report](https://github.com/monaya37/Forums/blob/5ea3419166a2de0a95cac1a3ea56fc4c2abe269e/Neural%20Networks%20Project%20Documentation.pdf) summarizes the details of the work we have done. We would like to sincerely thank **TA Yomna Ahmed** for her support throughout this course. I reached out to her with countless questions, and she was always there to help and guide us.
+We have put a lot of effort into this project, and this [report](https://github.com/monaya37/Forums/blob/5ea3419166a2de0a95cac1a3ea56fc4c2abe269e/Neural%20Networks%20Project%20Documentation.pdf) summarizes the details of the work we have done. We would like to sincerely thank **TA Yomna Ahmed** for her support throughout this course. I reached out to her with countless questions, and she was always there to help us.
 
 
 
