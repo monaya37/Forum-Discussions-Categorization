@@ -21,7 +21,7 @@ We check for missing values in the training and testing datasets and we fill the
 Duplicate entries in the **Discussion** column are removed from the training dataset.
 
 ### 2.2 Drop Unnecessary Columns
-We drop the **SampleID** column from the training dataset because it does not contribute to model training and could lead to overfitting.
+We drop the **SampleID** column from the training dataset because it does not contribute to model training.
 
 ### 2.3 Text Preprocessing
 Several text cleaning and preprocessing techniques are applied to ensure the data is ready for deep learning models:
@@ -50,7 +50,7 @@ We split the dataset into training and testing sets:
 
 ## 3. Tokenization and Embedding
 
-After preprocessing the text, we used a **tokenizer** to tokenize the discussions, breaking the text into individual words (or tokens). 
+After preprocessing the text, we used a **tokenizer** to tokenize the discussions.
 
 For the word embeddings, we experimented with three pretrained embeddings:
 1. **FastText**
@@ -94,7 +94,7 @@ We trained and evaluated the following models:
 
 ## Thank You
 
-We have put a lot of effort into this project, and this [report](https://github.com/monaya37/Forums/blob/5ea3419166a2de0a95cac1a3ea56fc4c2abe269e/Neural%20Networks%20Project%20Documentation.pdf) summarizes the details of the work we have done. We would like to sincerely thank **TA Yomna Ahmed** for her support throughout this course. I reached out to her with countless questions, and she was always there to help us.
+We have put a lot of effort into this project, and this [report](https://github.com/monaya37/Forums/blob/5ea3419166a2de0a95cac1a3ea56fc4c2abe269e/Neural%20Networks%20Project%20Documentation.pdf) summarizes the details of the work we have done. We would like to sincerely thank **TA Yomna Ahmed** for her support throughout this course. We reached out to her with countless questions, and she was always there to help us.
 
 
 
