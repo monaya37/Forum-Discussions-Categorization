@@ -38,7 +38,7 @@ Several text cleaning and preprocessing techniques are applied to ensure the dat
 
 - #### Lemmatization
 
-- #### Tokenization and Stopwords Removal
+- #### Stopwords Removal
 
 
 ### 2.4 Encoding Labels
