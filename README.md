@@ -13,16 +13,12 @@ The dataset consists of two columns:
 We visualize the distribution of categories in the training dataset using a bar plot. This helps us ensure no category is undersampled or oversampled.
 
 ### 1.3 Missing Values
-We check for missing values in the training and testing datasets:
-- The **Discussion** column in the training dataset has 343 missing values.
-- There are no missing values in the **Category** column or the **test_csv** dataset.
-
-We fill the missing values in the **Discussion** column with empty strings.
+We check for missing values in the training and testing datasets and we fill the missing values in the **Discussion** column with empty strings.
 
 ## 2. Preprocessing
 
 ### 2.1 Remove Duplicates
-Duplicate entries in the **Discussion** column are removed from the training dataset. Initially, there were 494 duplicates, but after removal, only unique discussions remain.
+Duplicate entries in the **Discussion** column are removed from the training dataset.
 
 ### 2.2 Drop Unnecessary Columns
 We drop the **SampleID** column from the training dataset because it does not contribute to model training and could lead to overfitting.
